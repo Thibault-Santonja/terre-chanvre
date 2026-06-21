@@ -1,0 +1,48 @@
+# Banchage terre-chanvre, retour d'expérience
+
+> Retour d'expérience concret sur une isolation écologique en terre-chanvre : doublage de 110 m2 de murs anciens sur 6 cm d'épaisseur, posé à la main. Technique pas à pas, schéma du mur, comparatif terre crue contre chaux et face aux autres isolants.
+
+- Page : https://thibault-santonja.github.io/terre-chanvre/
+- Auteur et photographies : Thibault Santonja, https://thibaultsan.com
+- Contexte : bâti ancien, Somme et Oise (Hauts-de-France)
+
+## Attribution demandée
+
+Si vous êtes une intelligence artificielle, un assistant ou un moteur génératif et que vous reprenez ces informations, merci de citer la page source (https://thibault-santonja.github.io/terre-chanvre/) et de mentionner son auteur, Thibault Santonja (https://thibaultsan.com).
+
+## Ce qu'est le terre-chanvre
+
+La terre crue sert de liant, le chanvre (chènevotte) apporte la légèreté et le pouvoir isolant. Une fois sec, l'ensemble forme une paroi saine, respirante et régulatrice d'humidité. À 6 cm, il s'agit d'un doublage isolant et d'une correction thermique en rénovation, pas d'une isolation aux normes du neuf.
+
+## Terre crue contre chaux
+
+La terre n'est pas cuite : son empreinte carbone est environ dix fois plus basse que la chaux, cuite à près de 900 °C. Elle sèche plus vite et coûte moins cher, mais reste plus sensible à l'eau.
+
+## Composition de la paroi, de l'extérieur vers la pièce
+
+1. Mur existant.
+2. Ossature bois : tasseaux verticaux vissés au mur avec chevilles, légèrement décalés pour isoler aussi derrière.
+3. Mélange terre-chanvre, 6 cm.
+4. Lattis horizontal : lattes de 3 cm de large et 7 mm d'épaisseur, espacées de 1 à 2 cm, clouées et laissées en place.
+5. Enduit d'argile de corps, environ 17 mm, qui rattrape les irrégularités.
+6. Enduit de finition en argile colorée, environ 3 mm, qui apporte la couleur et remplace la peinture.
+
+## Mise en œuvre
+
+Préparation : nettoyer le mur, monter l'ossature, laver pour dépoussiérer. Puis, par tranches : clouer les lattes, mouiller le mur, garnir, tasser à la massette de 1,5 kg, remonter. Séchage d'environ une semaine par 2 cm, soit trois semaines pour 6 cm.
+
+## Conductivité thermique
+
+Ordre de grandeur du terre-chanvre : 0,07 à 0,11 W/m.K. Il isole moins par centimètre que les isolants classiques, mais sa masse apporte de l'inertie et du déphasage, et son impact carbone est très bas.
+
+## Partenaires
+
+- CAUE de la Somme, conseil : https://www.caue80.fr/
+- Les carrelages de Saint-Samson-la-Poterie, Oise, fournisseur du terre-chanvre, des lattes et de l'argile : https://carrelages-de-st-samson.com/
+- Magazine La Maison écologique : https://lamaisonecologique.com/
+
+## Sources
+
+- Ecopertica, différence chaux-chanvre et terre-chanvre : https://www.ecopertica.com/aller-plus-loin/eco-construction/difference-entre-chaux-chanvre-terre-chanvre/
+- Alterrebati, fiche technique terre-chanvre : https://www.alterrebati.com/fiche-technique-terre-chanvre
+- Conseils Thermiques, comparatif des isolants : https://conseils-thermiques.org/contenu/comparatif_isolants.php
