@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Terre et chanvre">
+  <rect width="64" height="64" rx="14" fill="#5e7a4f"/>
+  <path d="M32 13c8.5 9.2 13.5 16.8 13.5 25A13.5 13.5 0 0 1 18.5 38c0-8.2 5-15.8 13.5-25z" fill="#f5f7f3"/>
+  <path d="M32 51V31" stroke="#5e7a4f" stroke-width="3.4" stroke-linecap="round"/>
+</svg>

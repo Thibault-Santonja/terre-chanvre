@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://thibault-santonja.github.io/terre-chanvre/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/mur-fini.webp</image:loc>
+      <image:caption>Pan de mur entièrement réalisé en terre-chanvre, lattis horizontal posé.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/mur-ossature.webp</image:loc>
+      <image:caption>Ossature bois posée sur le mur ancien, décalée pour isoler derrière.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/controle-niveau.webp</image:loc>
+      <image:caption>Contrôle du niveau de l'ossature avant de garnir.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/outils-fixer-lattes.webp</image:loc>
+      <image:caption>Pose des lattes horizontales sur l'ossature.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/cales-clouer-lattes.webp</image:loc>
+      <image:caption>Cales glissées derrière les tasseaux pour clouer dans le vide.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/fixation-lattes.webp</image:loc>
+      <image:caption>Fixation des lattes au marteau.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/terre-chanvre-massette.webp</image:loc>
+      <image:caption>Le mélange terre-chanvre prêt à poser et la massette pour tasser.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/outils-terre-chanvre-electricite.webp</image:loc>
+      <image:caption>Chutes de gaine ICTA utilisées comme gabarit d'espacement des lattes.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thibault-santonja.github.io/terre-chanvre/assets/img/outils-fixation-lattes.webp</image:loc>
+      <image:caption>Le poste de travail sur l'échafaudage, devant le mur en lattis.</image:caption>
+    </image:image>
   </url>
 </urlset>
