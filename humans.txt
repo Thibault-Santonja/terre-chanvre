@@ -1,0 +1,14 @@
+/* AUTEUR */
+Retour d'expérience et photographies : Thibault Santonja
+Site : https://thibaultsan.com
+
+/* MERCI */
+CAUE de la Somme : https://www.caue80.fr/
+Les carrelages de Saint-Samson-la-Poterie (Oise) : https://carrelages-de-st-samson.com/
+Magazine La Maison écologique : https://lamaisonecologique.com/
+Les amis venus prêter main forte le temps d'un week-end, décontractant malgré la fatigue.
+
+/* SITE */
+Standards : HTML5, CSS3, JSON-LD (schema.org)
+Hébergement : GitHub Pages
+Langue : Français (fr-FR)
