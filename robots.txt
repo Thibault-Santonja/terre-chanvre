@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thibault-santonja.github.io/terre-chanvre/sitemap.xml

@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banchage terre-chanvre : isolation écologique, retour d'expérience</title>
+<meta name="description" content="Banchage terre-chanvre : retour d'expérience d'une isolation écologique de 110 m2 de murs anciens sur 6 cm. Technique pas à pas, schéma du mur, terre contre chaux et comparatif des isolants.">
+<meta name="keywords" content="terre-chanvre, banchage terre-chanvre, isolation écologique, isolation, isolant biosourcé, enduit argile, bâti ancien, rénovation, chènevotte, terre crue">
+<meta name="author" content="Thibault Santonja">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="google-site-verification" content="a1WZAcKiW4f6Eq61fWTfqYrvYIofIhrfkV_TkuUg9Gc">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#5e7a4f">
+<link rel="canonical" href="https://thibault-santonja.github.io/terre-chanvre/">
+<meta property="og:title" content="Banchage terre-chanvre : isolation écologique, retour d'expérience">
+<meta property="og:description" content="Comment nous avons isolé 110 m2 de murs anciens en terre-chanvre, sur 6 cm. Technique, schéma du mur, astuces de chantier et comparatif des isolants.">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:url" content="https://thibault-santonja.github.io/terre-chanvre/">
+<meta property="og:image" content="https://thibault-santonja.github.io/terre-chanvre/assets/img/mur-fini.webp">
+<meta property="og:image:alt" content="Pan de mur isolé en terre-chanvre, lattis horizontal posé.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Banchage terre-chanvre : isolation écologique, retour d'expérience">
+<meta name="twitter:description" content="Isolation écologique de murs anciens en terre-chanvre : technique pas à pas, schéma et comparatif des isolants.">
+<meta name="twitter:image" content="https://thibault-santonja.github.io/terre-chanvre/assets/img/mur-fini.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-soft: #f5f7f3;
+    --bg-warm: #faf6f1;
+    --ink: #1c241c;
+    --ink-soft: #4a544a;
+    --line: #e2e7dd;
+    --sage: #5e7a4f;
+    --sage-deep: #3f5736;
+    --olive: #7c8c4a;
+    --clay: #b98a5e;
+    --clay-deep: #8a5a2c;
+    --focus: #2f4a2a;
+    --radius: 18px;
+    --maxw: 1180px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body.no-scroll { overflow: hidden; }
+
+  a { color: var(--sage-deep); }
+
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- Reading progress ---------- */
+  .progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 4px;
+    width: 0%;
+    background: linear-gradient(90deg, var(--sage), var(--olive));
+    z-index: 100;
+    transition: width 80ms linear;
+  }
+
+  /* ---------- Nav ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    background: rgba(255,255,255,0.88);
+    backdrop-filter: saturate(140%) blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 1.02rem;
+  }
+  .brand svg { display: block; }
+  .nav-links { display: flex; gap: 4px; list-style: none; }
+  .nav-links a {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    color: var(--ink-soft);
+    font-weight: 500;
+    font-size: 0.93rem;
+    transition: background 150ms ease, color 150ms ease;
+    cursor: pointer;
+  }
+  .nav-links a:hover { background: var(--bg-soft); color: var(--sage-deep); }
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  @media (max-width: 900px) {
+    .nav-toggle { display: inline-flex; }
+    .nav-links {
+      position: absolute;
+      top: 64px; left: 0; right: 0;
+      flex-direction: column;
+      gap: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--line);
+      padding: 8px 16px 16px;
+      display: none;
+    }
+    .nav-links.open { display: flex; }
+    .nav-links a { padding: 12px 14px; border-radius: 12px; }
+  }
+
+  /* ---------- Sections ---------- */
+  section { padding: 92px 0; }
+  @media (max-width: 640px) { section { padding: 60px 0; } }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 18px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 22px; height: 2px;
+    background: var(--sage);
+    display: inline-block;
+  }
+
+  h1 { font-size: clamp(2.6rem, 6.5vw, 5rem); line-height: 1.02; letter-spacing: -0.035em; font-weight: 800; }
+  h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); line-height: 1.08; letter-spacing: -0.03em; font-weight: 800; margin-bottom: 18px; }
+  h3 { font-size: 1.18rem; letter-spacing: -0.01em; font-weight: 700; margin-bottom: 8px; }
+  .lead { font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--ink-soft); max-width: 62ch; }
+  p { color: var(--ink-soft); }
+  p + p { margin-top: 14px; }
+
+  /* ---------- Hero ---------- */
+  .hero { padding-top: 80px; padding-bottom: 60px; }
+  .hero h1 { margin-bottom: 20px; }
+  .hero .lead { font-size: clamp(1.1rem, 2.2vw, 1.4rem); }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 52px;
+  }
+  @media (max-width: 860px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 420px) { .stats { grid-template-columns: 1fr; } }
+  .stat { border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 24px; background: var(--bg-soft); }
+  .stat .num { font-size: clamp(2.4rem, 5vw, 3.2rem); font-weight: 800; letter-spacing: -0.04em; color: var(--sage-deep); line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat .unit { font-size: 0.95rem; font-weight: 600; color: var(--olive); }
+  .stat .label { margin-top: 10px; font-size: 0.92rem; color: var(--ink-soft); }
+
+  /* ---------- Placeholder images ---------- */
+  .ph {
+    position: relative;
+    border-radius: var(--radius);
+    background: repeating-linear-gradient(135deg, #eef1ea 0 14px, #e8ece2 14px 28px);
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    min-height: 220px;
+  }
+  .ph::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 30% 30%, rgba(94,122,79,0.10), transparent 55%); }
+  .ph .ph-icon { position: absolute; top: 16px; left: 16px; opacity: 0.55; }
+  .ph .cap { position: relative; width: 100%; padding: 12px 14px; font-size: 0.78rem; font-weight: 600; color: #fff; background: linear-gradient(transparent, rgba(28,36,28,0.72)); }
+
+  /* ---------- "C'est quoi" + schéma ---------- */
+  .twocol { display: grid; grid-template-columns: 1.02fr 0.98fr; gap: 56px; align-items: start; }
+  @media (max-width: 980px) { .twocol { grid-template-columns: 1fr; gap: 40px; } }
+
+  .pillars { display: grid; gap: 14px; margin-top: 28px; }
+  .pillar {
+    display: flex; gap: 14px; padding: 18px 20px;
+    border: 1px solid var(--line); border-radius: 14px; background: var(--bg);
+    transition: border-color 200ms ease, transform 200ms ease;
+  }
+  .pillar:hover { border-color: var(--sage); transform: translateX(4px); }
+  .pillar .ic { flex: none; width: 40px; height: 40px; border-radius: 10px; background: var(--bg-soft); display: grid; place-items: center; color: var(--sage); }
+  .pillar h3 { margin-bottom: 2px; font-size: 1.02rem; }
+  .pillar p { font-size: 0.92rem; margin: 0; }
+
+  .note { margin-top: 22px; padding: 16px 18px; border-left: 3px solid var(--clay); background: var(--bg-warm); border-radius: 0 12px 12px 0; font-size: 0.92rem; color: var(--ink-soft); }
+
+  /* ---------- Figure / schéma ---------- */
+  .figure { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); overflow: hidden; position: sticky; top: 84px; }
+  @media (max-width: 980px) { .figure { position: static; } }
+  .figure__view { display: block; }
+  .figure__view[hidden] { display: none; }
+  .figure svg { display: block; width: 100%; height: auto; }
+  .figure__bar {
+    border-top: 1px solid var(--line);
+    padding: 10px 14px;
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    background: var(--bg);
+  }
+  .figure__cap { font-size: 0.78rem; color: var(--ink-soft); font-weight: 600; }
+  .legend { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 2px; }
+  .legend li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+  .legend li:last-child { border-bottom: 0; }
+  .legend .num { width: 24px; height: 24px; border-radius: 7px; background: var(--sage); color: #fff; font-weight: 800; font-size: 0.82rem; display: inline-grid; place-items: center; font-variant-numeric: tabular-nums; }
+  .legend .num.clay { background: var(--clay-deep); }
+  .legend b { color: var(--ink); font-weight: 700; }
+  .legend p { margin: 2px 0 0; font-size: 0.86rem; }
+
+  /* ---------- Buttons ---------- */
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; border-radius: 999px; font-family: inherit; font-weight: 700; font-size: 0.92rem; cursor: pointer; border: 1px solid transparent; transition: background 180ms ease, color 180ms ease, border-color 180ms ease, transform 180ms ease; }
+  .btn:active { transform: translateY(1px); }
+  .btn-primary { background: var(--sage); color: #fff; border-color: var(--sage); }
+  .btn-primary:hover { background: var(--sage-deep); border-color: var(--sage-deep); }
+  .btn-ghost { background: var(--bg); color: var(--ink); border-color: var(--line); font-size: 0.82rem; padding: 8px 14px; }
+  .btn-ghost:hover { border-color: var(--sage); color: var(--sage-deep); }
+
+  /* ---------- Terre ou chaux ---------- */
+  .section-soft { background: var(--bg-soft); }
+  .viz { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; margin-top: 40px; }
+  @media (max-width: 860px) { .viz { grid-template-columns: 1fr; gap: 32px; } }
+  .bars { display: grid; gap: 26px; }
+  .bar-row .bar-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .bar-row .bar-name { font-weight: 700; font-size: 1rem; color: var(--ink); }
+  .bar-row .bar-val { font-weight: 800; color: var(--sage-deep); font-variant-numeric: tabular-nums; }
+  .bar-track { height: 34px; background: #e7ebe1; border-radius: 999px; overflow: hidden; }
+  .bar-fill { height: 100%; width: 0; border-radius: 999px; transition: width 1100ms cubic-bezier(.16,1,.3,1); }
+  .bar-fill.terre { background: linear-gradient(90deg, var(--sage), var(--olive)); }
+  .bar-fill.chaux { background: #c4a98e; }
+  .bar-caption { font-size: 0.82rem; color: var(--ink-soft); margin-top: 10px; }
+  .compare { display: grid; gap: 12px; }
+  .compare-item { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; font-size: 0.93rem; color: var(--ink-soft); }
+  .compare-item .tag { flex: none; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 3px 9px; border-radius: 999px; }
+  .tag.plus { background: #e4ede0; color: var(--sage-deep); }
+  .tag.minus { background: #f3e7da; color: var(--clay-deep); }
+  .viz-cta { margin-top: 36px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .viz-cta .hint { font-size: 0.88rem; color: var(--ink-soft); }
+
+  /* ---------- Steps ---------- */
+  .prep {
+    margin-top: 44px;
+    display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: start;
+    padding: 28px 30px; border: 1px solid var(--line); border-radius: var(--radius);
+    background: var(--bg-warm);
+  }
+  @media (max-width: 640px) { .prep { grid-template-columns: 1fr; gap: 16px; padding: 22px; } }
+  .prep .n { display: inline-grid; place-items: center; width: 52px; height: 52px; border-radius: 14px; background: var(--clay); color: #fff; font-weight: 800; font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+  .prep h3 { margin-bottom: 4px; }
+  .prep .prep-sub { margin: 0; font-size: 0.95rem; color: var(--ink-soft); }
+  .prep ol { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+  .prep ol li { display: flex; gap: 12px; align-items: baseline; font-size: 0.96rem; color: var(--ink); }
+  .prep ol li .b { flex: none; font-weight: 800; color: var(--clay-deep); font-variant-numeric: tabular-nums; min-width: 1.4em; }
+
+  .cycle-head { margin-top: 40px; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .cycle-head h3 { font-size: 1.3rem; margin: 0; }
+  .cycle-head .badge { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; color: var(--sage-deep); background: #e4ede0; padding: 4px 12px; border-radius: 999px; }
+
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 24px; }
+  @media (max-width: 860px) { .steps { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
+  .step { border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; background: var(--bg); transition: border-color 200ms ease, transform 200ms ease, box-shadow 200ms ease; }
+  .step:hover { border-color: var(--sage); transform: translateY(-4px); box-shadow: 0 14px 30px -18px rgba(63,87,54,0.35); }
+  .step .n { display: inline-grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; background: var(--sage); color: #fff; font-weight: 800; font-size: 1.1rem; margin-bottom: 16px; font-variant-numeric: tabular-nums; }
+  .step p { font-size: 0.92rem; margin: 0; }
+
+  /* ---------- Lattis + finitions ---------- */
+  .lattis { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding: 32px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); }
+  @media (max-width: 860px) { .lattis { grid-template-columns: 1fr; gap: 28px; } }
+  .lath-diagram { display: flex; flex-direction: column; gap: 9px; padding: 18px; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; }
+  .lath { height: 16px; border-radius: 4px; background: linear-gradient(90deg, var(--clay), #a06f44); }
+  .lath.spacer { background: none; height: 6px; }
+
+  .finitions { margin-top: 22px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .finitions { grid-template-columns: 1fr; } }
+  .fin { border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; background: var(--bg); }
+  .fin .k { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--clay-deep); margin-bottom: 6px; }
+  .fin .v { font-weight: 800; font-size: 1.4rem; color: var(--ink); letter-spacing: -0.02em; }
+  .fin p { margin: 6px 0 0; font-size: 0.88rem; }
+
+  /* ---------- Gallery ---------- */
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 44px; align-items: start; }
+  @media (max-width: 860px) { .gallery { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .gallery { grid-template-columns: 1fr; } }
+
+  /* ---------- Thanks ---------- */
+  .thanks-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 40px; }
+  @media (max-width: 720px) { .thanks-grid { grid-template-columns: 1fr; } }
+  .thank { border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; background: var(--bg); transition: border-color 200ms ease; }
+  .thank:hover { border-color: var(--sage); }
+  .thank .k { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sage); margin-bottom: 8px; }
+  .thank h3 { margin-bottom: 6px; }
+  .thank p { font-size: 0.92rem; margin: 0; }
+  .thank a { font-weight: 600; }
+
+  /* ---------- Footer ---------- */
+  footer { border-top: 1px solid var(--line); padding: 40px 0 56px; }
+  .foot-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; font-size: 0.88rem; color: var(--ink-soft); }
+  .sources { max-width: 60ch; }
+  .sources .k { font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+  .sources ul { margin: 0; padding-left: 18px; }
+  .sources li { margin: 3px 0; }
+
+  /* ---------- Modal ---------- */
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(28,36,28,0.55); display: none; z-index: 200; padding: 20px; }
+  .modal-backdrop.open { display: grid; place-items: center; }
+  .modal { background: var(--bg); border-radius: 20px; width: 100%; max-width: 1020px; max-height: 88vh; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 30px 80px -30px rgba(28,36,28,0.5); }
+  .modal__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 24px 26px 18px; border-bottom: 1px solid var(--line); }
+  .modal__head h2 { font-size: 1.5rem; margin: 0 0 4px; }
+  .modal__head p { font-size: 0.9rem; margin: 0; }
+  .modal__close { flex: none; width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); cursor: pointer; display: grid; place-items: center; color: var(--ink); transition: background 150ms ease; }
+  .modal__close:hover { background: var(--bg-soft); }
+  .modal__body { padding: 20px 26px 26px; overflow: auto; }
+  .table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; }
+  table.cmp { border-collapse: collapse; width: 100%; min-width: 820px; font-size: 0.88rem; }
+  table.cmp th, table.cmp td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.cmp thead th { position: sticky; top: 0; background: var(--bg-soft); font-weight: 700; color: var(--ink); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; z-index: 1; }
+  table.cmp tbody th { font-weight: 700; color: var(--ink); white-space: nowrap; }
+  table.cmp .lam { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--sage-deep); white-space: nowrap; }
+  table.cmp tr.is-hero td, table.cmp tr.is-hero th { background: #eef3e9; }
+  table.cmp tr.is-petro td, table.cmp tr.is-petro th { background: #f7efe6; }
+  .pill { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+  .pill.good { background: #e4ede0; color: var(--sage-deep); }
+  .pill.mid { background: #f3eed8; color: #7a6a1e; }
+  .pill.low { background: #f3e0d8; color: var(--clay-deep); }
+  .modal__note { margin-top: 16px; font-size: 0.84rem; color: var(--ink-soft); }
+  .modal__note a { font-weight: 600; }
+
+  /* ---------- Reveal ---------- */
+  .reveal { opacity: 0; transform: translateY(22px); transition: opacity 600ms ease, transform 600ms ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    .bar-fill { transition: none; }
+    .pillar:hover, .step:hover, .thank:hover { transform: none; }
+  }
+
+  .skip { position: absolute; left: -999px; top: 0; background: var(--sage-deep); color: #fff; padding: 10px 16px; border-radius: 0 0 10px 0; z-index: 300; }
+  .skip:focus { left: 0; }
+
+  /* ---------- Images réelles ---------- */
+  .hero-figure { margin-top: 48px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+  .hero-figure img { display: block; width: 100%; height: auto; max-height: 460px; object-fit: cover; }
+  .hero-figure figcaption { padding: 12px 16px; font-size: 0.85rem; color: var(--ink-soft); background: var(--bg-soft); }
+
+  .gshot { position: relative; margin: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--bg-soft); aspect-ratio: 4 / 3; }
+  .gshot img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 400ms ease; }
+  .gshot:hover img { transform: scale(1.04); }
+  .gshot figcaption { position: absolute; inset: auto 0 0 0; padding: 14px; font-size: 0.82rem; font-weight: 600; color: #fff; background: linear-gradient(transparent, rgba(28,36,28,0.85)); }
+
+  /* ---------- Astuces ---------- */
+  .tips { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 40px; }
+  @media (max-width: 760px) { .tips { grid-template-columns: 1fr; } }
+  .tip { display: flex; gap: 16px; padding: 22px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); transition: border-color 200ms ease, transform 200ms ease; }
+  .tip:hover { border-color: var(--sage); transform: translateY(-3px); }
+  .tip .ic { flex: none; width: 42px; height: 42px; border-radius: 11px; background: var(--bg-soft); display: grid; place-items: center; color: var(--sage); }
+  .tip h3 { font-size: 1.05rem; margin-bottom: 5px; }
+  .tip p { font-size: 0.92rem; margin: 0; }
+  /* ---------- Lightbox ---------- */
+  .gshot, .hero-figure { cursor: zoom-in; }
+  .gshot:focus-visible, .hero-figure:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .lightbox { position: fixed; inset: 0; z-index: 300; background: rgba(18,22,16,0.93); display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .lightbox[hidden] { display: none; }
+  .lb-figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; max-width: 1200px; }
+  .lb-media img { display: block; max-width: 92vw; max-height: 82vh; width: auto; height: auto; object-fit: contain; border-radius: 10px; background: #000; }
+  .lb-cap { color: #eef0ea; font-size: 0.9rem; text-align: center; max-width: 68ch; margin: 0; }
+  .lb-btn { position: absolute; width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.25); background: rgba(20,24,18,0.6); color: #fff; cursor: pointer; display: grid; place-items: center; transition: background 150ms ease; }
+  .lb-btn:hover { background: rgba(94,122,79,0.85); }
+  .lb-btn:focus-visible { outline: 3px solid #cdd8c2; outline-offset: 2px; }
+  .lb-close { top: 18px; right: 18px; }
+  .lb-prev { left: 16px; top: 50%; transform: translateY(-50%); }
+  .lb-next { right: 16px; top: 50%; transform: translateY(-50%); }
+  @media (max-width: 560px) { .lb-prev { left: 8px; } .lb-next { right: 8px; } .lb-btn { width: 40px; height: 40px; } }
+
+  @media (prefers-reduced-motion: reduce) { .gshot:hover img, .tip:hover { transform: none; } }
+</style>
+</head>
+<body>
+<div class="progress" id="progress" role="presentation"></div>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<nav class="nav" aria-label="Navigation principale">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Accueil, Banchage terre-chanvre">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 3c3 3.5 5 6.4 5 9.5A5 5 0 0 1 7 12.5C7 9.4 9 6.5 12 3z" stroke="#5e7a4f" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M12 21V11" stroke="#5e7a4f" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      Terre &amp; chanvre
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Ouvrir le menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke="#1c241c" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#definition">C'est quoi</a></li>
+      <li><a href="#liant">Terre ou chaux</a></li>
+      <li><a href="#technique">La technique</a></li>
+      <li><a href="#astuces">Astuces</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#merci">Remerciements</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="contenu">
+
+<!-- HERO -->
+<header class="hero wrap" id="top">
+  <span class="eyebrow reveal">Retour d'expérience</span>
+  <h1 class="reveal">Banchage<br>terre-chanvre</h1>
+  <p class="lead reveal">Une isolation écologique posée à la main, avec deux matières simples : la terre comme liant, le chanvre pour la légèreté. Voici ce que nous avons appris sur le chantier, sans embellir.</p>
+
+  <div class="stats">
+    <div class="stat reveal">
+      <div class="num"><span class="count" data-to="110" data-prefix="~">0</span></div>
+      <span class="unit">m² posés</span>
+      <div class="label">Surface de murs doublés</div>
+    </div>
+    <div class="stat reveal">
+      <div class="num"><span class="count" data-to="6">0</span></div>
+      <span class="unit">cm d'épaisseur</span>
+      <div class="label">Doublage isolant en rénovation</div>
+    </div>
+    <div class="stat reveal">
+      <div class="num"><span class="count" data-to="3" data-prefix="~">0</span></div>
+      <span class="unit">semaines de séchage</span>
+      <div class="label">Environ 1 semaine par 2 cm</div>
+    </div>
+    <div class="stat reveal">
+      <div class="num"><span class="count" data-to="10" data-prefix="~">0</span></div>
+      <span class="unit">jours de pose</span>
+      <div class="label">À deux mains, sans pression</div>
+    </div>
+  </div>
+
+  <figure class="hero-figure reveal">
+    <picture>
+      <source type="image/avif" srcset="assets/img/mur-fini.avif">
+      <source type="image/webp" srcset="assets/img/mur-fini.webp">
+      <img src="assets/img/mur-fini.webp" width="1600" height="1200" loading="eager" fetchpriority="high" decoding="async" alt="Pan de mur ancien entièrement isolé en terre-chanvre, lattis horizontal posé sur toute la surface, prêt à recevoir l'enduit d'argile.">
+    </picture>
+    <figcaption>Le pan de mur entièrement réalisé en terre-chanvre, lattis horizontal posé, prêt pour l'enduit d'argile. Thibault Santonja Photographie.</figcaption>
+  </figure>
+</header>
+
+<!-- C'EST QUOI -->
+<section id="definition">
+  <div class="wrap twocol">
+    <div>
+      <span class="eyebrow reveal">C'est quoi ?</span>
+      <h2 class="reveal">Deux matières qui se complètent</h2>
+      <p class="lead reveal">La terre joue le rôle de liant : elle enrobe et tient l'ensemble. Le chanvre, lui, apporte la légèreté et le pouvoir isolant. Mélangés, ils donnent une masse souple à poser, saine une fois sèche.</p>
+
+      <div class="pillars">
+        <div class="pillar reveal">
+          <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 4c3 4 4.5 6.5 4.5 9a4.5 4.5 0 1 1-9 0c0-2.5 1.5-5 4.5-9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+          <div><h3>La terre, le liant</h3><p>Crue, sans cuisson. Elle colle les fibres et apporte la masse qui régule la température.</p></div>
+        </div>
+        <div class="pillar reveal">
+          <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 21V8M12 8c-1.5-2-4-3-4-3M12 8c1.5-2 4-3 4-3M12 13c-1.3-1.6-3.2-2.4-3.2-2.4M12 13c1.3-1.6 3.2-2.4 3.2-2.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+          <div><h3>Le chanvre, l'isolant</h3><p>La chènevotte allège le mélange et freine les échanges de chaleur. Léger à manipuler.</p></div>
+        </div>
+        <div class="pillar reveal">
+          <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 14a8 8 0 0 1 16 0M7 14a5 5 0 0 1 10 0M9 18l3-4 3 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div><h3>Une paroi qui respire</h3><p>Sèche, la paroi reste saine et perspirante. Elle absorbe et restitue l'humidité de la pièce.</p></div>
+        </div>
+      </div>
+
+      <p class="note reveal">À 6 cm, on parle d'un doublage isolant et d'une correction thermique, pas d'une isolation complète aux normes du neuf. En rénovation de bâti ancien, c'est déjà un vrai gain de confort, honnêtement utile.</p>
+    </div>
+
+    <!-- SCHÉMA : coupe / face -->
+    <div class="reveal">
+      <figure class="figure">
+        <!-- VUE EN COUPE -->
+        <div class="figure__view" id="viewCoupe">
+          <svg viewBox="0 0 640 470" role="img" aria-labelledby="cutTitle cutDesc">
+            <title id="cutTitle">Coupe du doublage terre-chanvre</title>
+            <desc id="cutDesc">De l'extérieur vers l'intérieur de la pièce : mur existant en pierre, mélange terre-chanvre de 6 centimètres, lattis horizontal cloué, enduit d'argile de corps qui remplit entre et devant les lattes, puis enduit de finition en argile colorée.</desc>
+            <defs>
+              <pattern id="stone" width="34" height="26" patternUnits="userSpaceOnUse">
+                <rect width="34" height="26" fill="#d6d2c8"/>
+                <path d="M0 13h34M17 0v13M0 26h34M8 13v13M25 13v13" stroke="#b3ad9f" stroke-width="1.1" fill="none"/>
+              </pattern>
+              <pattern id="hempmix" width="10" height="10" patternUnits="userSpaceOnUse">
+                <rect width="10" height="10" fill="#cdb58f"/>
+                <path d="M0 3h10M3 0v10M5 7l3 3M6 1l3 2" stroke="#b59669" stroke-width="0.8" opacity="0.7"/>
+              </pattern>
+              <pattern id="wood" width="8" height="22" patternUnits="userSpaceOnUse">
+                <rect width="8" height="22" fill="#c79a6b"/>
+                <path d="M0 5h8M0 13h8M0 19h8" stroke="#a87f51" stroke-width="0.7"/>
+              </pattern>
+              <pattern id="claybody" width="8" height="8" patternUnits="userSpaceOnUse">
+                <rect width="8" height="8" fill="#d8b187"/>
+                <circle cx="2" cy="2" r="0.7" fill="#bb8e5f"/>
+                <circle cx="6" cy="5" r="0.7" fill="#bb8e5f"/>
+              </pattern>
+            </defs>
+
+            <rect x="0" y="0" width="640" height="470" fill="#f5f7f3"/>
+
+            <!-- 1. mur existant -->
+            <rect x="62" y="40" width="118" height="350" fill="url(#stone)" stroke="#1c241c" stroke-width="1.5"/>
+            <!-- 3. terre-chanvre 6 cm (180 -> 330) -->
+            <rect x="180" y="40" width="150" height="350" fill="url(#hempmix)" stroke="#1c241c" stroke-width="1.5"/>
+            <!-- ossature non représentée en coupe, voir la vue de face -->
+            <!-- 5. enduit d'argile de corps (330 -> 372), remplit entre et devant les lattes -->
+            <rect x="330" y="40" width="42" height="350" fill="url(#claybody)" stroke="#1c241c" stroke-width="1.5"/>
+            <!-- 4. lattis : lattes horizontales vues en coupe, posées contre le terre-chanvre, noyées dans l'argile -->
+            <g fill="url(#wood)" stroke="#1c241c" stroke-width="1.1">
+              <rect x="330" y="48" width="17" height="12"/>
+              <rect x="330" y="74" width="17" height="12"/>
+              <rect x="330" y="100" width="17" height="12"/>
+              <rect x="330" y="126" width="17" height="12"/>
+              <rect x="330" y="152" width="17" height="12"/>
+              <rect x="330" y="178" width="17" height="12"/>
+              <rect x="330" y="216" width="17" height="12"/>
+              <rect x="330" y="242" width="17" height="12"/>
+              <rect x="330" y="268" width="17" height="12"/>
+              <rect x="330" y="294" width="17" height="12"/>
+              <rect x="330" y="320" width="17" height="12"/>
+              <rect x="330" y="346" width="17" height="12"/>
+            </g>
+            <!-- 6. enduit de finition argile colorée (372 -> 380) -->
+            <rect x="372" y="40" width="9" height="350" fill="#b27c4a" stroke="#1c241c" stroke-width="1.5"/>
+
+            <!-- orientation -->
+            <text x="62" y="30" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="700" fill="#4a544a">EXTÉRIEUR</text>
+            <text x="578" y="30" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="700" fill="#4a544a" text-anchor="end">INTÉRIEUR / PIÈCE</text>
+
+            <!-- cote 60 mm terre-chanvre -->
+            <g stroke="#3f5736" stroke-width="1.3" fill="none">
+              <line x1="180" y1="404" x2="180" y2="420"/>
+              <line x1="330" y1="404" x2="330" y2="420"/>
+              <line x1="180" y1="412" x2="330" y2="412"/>
+            </g>
+            <path d="M180 412l9-4v8z" fill="#3f5736"/>
+            <path d="M330 412l-9-4v8z" fill="#3f5736"/>
+            <text x="255" y="436" font-family="'Plus Jakarta Sans',sans-serif" font-size="12" font-weight="800" fill="#3f5736" text-anchor="middle">60 mm, terre-chanvre</text>
+
+            <!-- cote enduits -->
+            <g stroke="#8a5a2c" stroke-width="1.2" fill="none">
+              <line x1="330" y1="404" x2="330" y2="412"/>
+              <line x1="381" y1="404" x2="381" y2="412"/>
+              <line x1="330" y1="408" x2="381" y2="408"/>
+            </g>
+            <text x="355" y="456" font-family="'Plus Jakarta Sans',sans-serif" font-size="11" font-weight="700" fill="#8a5a2c" text-anchor="middle">enduits ≈ 17 + 3 mm</text>
+
+            <!-- repères -->
+            <g font-family="'Plus Jakarta Sans',sans-serif" font-size="12" font-weight="800">
+              <line x1="120" y1="40" x2="120" y2="96" stroke="#1c241c" stroke-width="1"/>
+              <rect x="109" y="94" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="120" y="109" fill="#fff" text-anchor="middle">1</text>
+
+              <line x1="240" y1="40" x2="240" y2="86" stroke="#1c241c" stroke-width="1"/>
+              <rect x="229" y="84" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="240" y="99" fill="#fff" text-anchor="middle">3</text>
+
+              <line x1="338" y1="320" x2="338" y2="360" stroke="#1c241c" stroke-width="1"/>
+              <line x1="338" y1="360" x2="300" y2="360" stroke="#1c241c" stroke-width="1"/>
+              <rect x="278" y="349" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="289" y="364" fill="#fff" text-anchor="middle">4</text>
+
+              <line x1="351" y1="290" x2="430" y2="290" stroke="#1c241c" stroke-width="1"/>
+              <rect x="430" y="279" width="22" height="22" rx="5" fill="#8a5a2c"/><text x="441" y="294" fill="#fff" text-anchor="middle">5</text>
+
+              <line x1="377" y1="120" x2="448" y2="120" stroke="#1c241c" stroke-width="1"/>
+              <rect x="448" y="109" width="22" height="22" rx="5" fill="#8a5a2c"/><text x="459" y="124" fill="#fff" text-anchor="middle">6</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- VUE DE FACE -->
+        <div class="figure__view" id="viewFace" hidden>
+          <svg viewBox="0 0 640 470" role="img" aria-labelledby="faceTitle faceDesc">
+            <title id="faceTitle">Vue de face de l'ossature et du lattis</title>
+            <desc id="faceDesc">Élévation du mur : des tasseaux verticaux en bois forment l'ossature, le mélange terre-chanvre remplit les espaces entre les tasseaux, et des lattes horizontales sont clouées en travers pour former le lattis, par paquets de six lattes.</desc>
+            <defs>
+              <pattern id="hempface" width="12" height="12" patternUnits="userSpaceOnUse">
+                <rect width="12" height="12" fill="#cdb58f"/>
+                <path d="M2 4l3 3M6 1l4 4M1 9l3 3M8 8l3 3" stroke="#b59669" stroke-width="0.9" opacity="0.65"/>
+              </pattern>
+              <pattern id="woodv" width="22" height="8" patternUnits="userSpaceOnUse">
+                <rect width="22" height="8" fill="#c79a6b"/>
+                <path d="M5 0v8M13 0v8M19 0v8" stroke="#a87f51" stroke-width="0.7"/>
+              </pattern>
+            </defs>
+
+            <rect x="0" y="0" width="640" height="470" fill="#f5f7f3"/>
+            <!-- fond terre-chanvre -->
+            <rect x="60" y="44" width="520" height="344" fill="url(#hempface)" stroke="#1c241c" stroke-width="1.5"/>
+
+            <!-- tasseaux verticaux (ossature) -->
+            <g stroke="#1c241c" stroke-width="1.4" fill="url(#woodv)">
+              <rect x="110" y="44" width="24" height="344"/>
+              <rect x="250" y="44" width="24" height="344"/>
+              <rect x="390" y="44" width="24" height="344"/>
+              <rect x="506" y="44" width="24" height="344"/>
+            </g>
+
+            <!-- lattes horizontales (lattis), paquets de 6 -->
+            <g fill="#b98a5e" stroke="#8a5a2c" stroke-width="0.8" opacity="0.96">
+              <!-- paquet 1 -->
+              <rect x="60" y="58" width="520" height="11"/>
+              <rect x="60" y="74" width="520" height="11"/>
+              <rect x="60" y="90" width="520" height="11"/>
+              <rect x="60" y="106" width="520" height="11"/>
+              <rect x="60" y="122" width="520" height="11"/>
+              <rect x="60" y="138" width="520" height="11"/>
+              <!-- paquet 2 -->
+              <rect x="60" y="170" width="520" height="11"/>
+              <rect x="60" y="186" width="520" height="11"/>
+              <rect x="60" y="202" width="520" height="11"/>
+              <rect x="60" y="218" width="520" height="11"/>
+              <rect x="60" y="234" width="520" height="11"/>
+              <rect x="60" y="250" width="520" height="11"/>
+              <!-- paquet 3 -->
+              <rect x="60" y="282" width="520" height="11"/>
+              <rect x="60" y="298" width="520" height="11"/>
+              <rect x="60" y="314" width="520" height="11"/>
+              <rect x="60" y="330" width="520" height="11"/>
+              <rect x="60" y="346" width="520" height="11"/>
+              <rect x="60" y="362" width="520" height="11"/>
+            </g>
+            <!-- clous aux croisements lattes / tasseaux -->
+            <g fill="#5b4326">
+              <circle cx="122" cy="63" r="1.5"/><circle cx="262" cy="63" r="1.5"/><circle cx="402" cy="63" r="1.5"/><circle cx="518" cy="63" r="1.5"/>
+              <circle cx="122" cy="175" r="1.5"/><circle cx="262" cy="175" r="1.5"/><circle cx="402" cy="175" r="1.5"/><circle cx="518" cy="175" r="1.5"/>
+              <circle cx="122" cy="287" r="1.5"/><circle cx="262" cy="287" r="1.5"/><circle cx="402" cy="287" r="1.5"/><circle cx="518" cy="287" r="1.5"/>
+            </g>
+
+            <!-- étiquettes -->
+            <g font-family="'Plus Jakarta Sans',sans-serif" font-size="12" font-weight="800">
+              <line x1="122" y1="44" x2="122" y2="22" stroke="#1c241c" stroke-width="1"/>
+              <rect x="111" y="0" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="122" y="15" fill="#fff" text-anchor="middle">2</text>
+              <line x1="200" y1="225" x2="200" y2="225" stroke="#1c241c" stroke-width="1"/>
+              <rect x="189" y="214" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="200" y="229" fill="#fff" text-anchor="middle">3</text>
+              <rect x="300" y="100" width="22" height="22" rx="5" fill="#5e7a4f"/><text x="311" y="115" fill="#fff" text-anchor="middle">4</text>
+            </g>
+
+            <!-- cote paquet de 6 lattes -->
+            <g stroke="#3f5736" stroke-width="1.2" fill="none">
+              <line x1="596" y1="58" x2="596" y2="149"/>
+              <line x1="590" y1="58" x2="602" y2="58"/>
+              <line x1="590" y1="149" x2="602" y2="149"/>
+            </g>
+            <text x="606" y="108" font-family="'Plus Jakarta Sans',sans-serif" font-size="10" font-weight="700" fill="#3f5736">6 lattes</text>
+            <text x="606" y="121" font-family="'Plus Jakarta Sans',sans-serif" font-size="10" font-weight="700" fill="#3f5736">≈ 24 cm</text>
+          </svg>
+        </div>
+
+        <figcaption class="figure__bar">
+          <span class="figure__cap" id="figCap">Coupe du mur, de l'extérieur vers la pièce</span>
+          <button class="btn btn-ghost" id="viewToggle" type="button" aria-pressed="false">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            Voir de face
+          </button>
+        </figcaption>
+      </figure>
+
+      <ol class="legend" aria-label="Composition de la paroi">
+        <li><span class="num">1</span><div><b>Mur existant</b><p>Support maçonné, nettoyé puis humidifié avant le garnissage.</p></div></li>
+        <li><span class="num">2</span><div><b>Ossature bois</b><p>Tasseaux verticaux vissés au mur avec chevilles, légèrement décalés pour isoler aussi derrière. Visibles sur la vue de face.</p></div></li>
+        <li><span class="num">3</span><div><b>Mélange terre-chanvre</b><p>Boue de terre et fibres de chanvre, tassée sur 6 cm.</p></div></li>
+        <li><span class="num">4</span><div><b>Lattis horizontal</b><p>Lattes de 3 cm de large et 7 mm d'épaisseur, clouées en travers. Il reste en place.</p></div></li>
+        <li><span class="num clay">5</span><div><b>Enduit d'argile de corps</b><p>Environ 17 mm depuis l'ossature, soit 10 mm devant le lattis. Il remplit entre et devant les lattes et rattrape les irrégularités.</p></div></li>
+        <li><span class="num clay">6</span><div><b>Enduit de finition</b><p>Argile colorée d'environ 3 mm. Elle donne la couleur et remplace la peinture.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- TERRE OU CHAUX -->
+<section id="liant" class="section-soft">
+  <div class="wrap">
+    <span class="eyebrow reveal">Terre ou chaux ?</span>
+    <h2 class="reveal">Le choix du liant change tout</h2>
+    <p class="lead reveal">Les deux liants fonctionnent. Mais la terre crue a un argument décisif : elle ne demande aucune cuisson. La chaux, elle, passe par un four à près de 900 °C, ce qui pèse lourd sur son empreinte carbone.</p>
+
+    <div class="viz">
+      <div>
+        <div class="bars" id="co2bars" role="img" aria-label="Empreinte CO2 comparée : le liant terre émet environ dix fois moins de CO2 que la chaux.">
+          <div class="bar-row reveal">
+            <div class="bar-head"><span class="bar-name">Liant terre crue</span><span class="bar-val">1×</span></div>
+            <div class="bar-track"><div class="bar-fill terre" data-w="10"></div></div>
+          </div>
+          <div class="bar-row reveal">
+            <div class="bar-head"><span class="bar-name">Liant chaux</span><span class="bar-val">≈ 10×</span></div>
+            <div class="bar-track"><div class="bar-fill chaux" data-w="100"></div></div>
+          </div>
+        </div>
+        <p class="bar-caption reveal">Empreinte CO2 relative du liant. La terre crue émet environ dix fois moins que la chaux, faute de cuisson. Ordre de grandeur, pour fixer les idées.</p>
+      </div>
+
+      <div class="compare">
+        <div class="compare-item reveal"><span class="tag plus">Pour</span><span>Pas de cuisson à 900 °C : empreinte CO2 réduite d'environ dix fois.</span></div>
+        <div class="compare-item reveal"><span class="tag plus">Pour</span><span>Sèche plus vite et coûte moins cher que la chaux.</span></div>
+        <div class="compare-item reveal"><span class="tag plus">Pour</span><span>Perspirante, elle déphase la chaleur par la masse : adaptée au bâti ancien.</span></div>
+        <div class="compare-item reveal"><span class="tag minus">À surveiller</span><span>Plus sensible à l'eau : à réserver aux parois protégées du ruissellement.</span></div>
+      </div>
+    </div>
+
+    <div class="viz-cta reveal">
+      <button class="btn btn-primary" id="openCompare" type="button" aria-haspopup="dialog">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V10M10 19V5M16 19v-7M22 19H2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Comparer le chanvre aux autres isolants
+      </button>
+      <span class="hint">Fibre de bois, liège, laine de mouton, laine de verre, polystyrène.</span>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNIQUE -->
+<section id="technique">
+  <div class="wrap">
+    <span class="eyebrow reveal">La technique, pas à pas</span>
+    <h2 class="reveal">Du mélange au mur, geste par geste</h2>
+    <p class="lead reveal">Le mélange ressemble à une boue épaisse chargée de fibres. On a vite les mains dedans, mais ça se travaille bien et se rince en un instant. On le tasse entre le mur existant, les tasseaux verticaux de l'ossature et le lattis, qu'on cloue par tranches au fur et à mesure de la montée.</p>
+
+    <!-- Préparation -->
+    <div class="prep reveal">
+      <span class="n" aria-hidden="true">0</span>
+      <div>
+        <h3>Préparation</h3>
+        <p class="prep-sub">Avant la première passe, on prépare le support une bonne fois.</p>
+        <ol>
+          <li><span class="b">1.</span> Nettoyer une première fois le mur, retirer le plus gros.</li>
+          <li><span class="b">2.</span> Monter l'ossature, généralement en bois.</li>
+          <li><span class="b">3.</span> Laver le mur pour assurer l'accroche, en enlevant toutes les poussières.</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Cycle -->
+    <div class="cycle-head reveal">
+      <h3>Puis on monte par tranches</h3>
+      <span class="badge">on remonte tranche après tranche</span>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><span class="n">1</span><h3>Clouer les lattes</h3><p>Poser une rangée de lattes horizontales sur les tasseaux, en bas de la zone à garnir.</p></div>
+      <div class="step reveal"><span class="n">2</span><h3>Mouiller le mur</h3><p>Humidifier le support juste avant de garnir, pour éviter qu'il ne boive l'eau du mélange.</p></div>
+      <div class="step reveal"><span class="n">3</span><h3>Garnir</h3><p>Déposer le mélange terre-chanvre derrière le lattis, contre le mur existant.</p></div>
+      <div class="step reveal"><span class="n">4</span><h3>Tasser</h3><p>Compacter à la truelle ou à la langue de chat, une truelle très fine, pour chasser les vides.</p></div>
+      <div class="step reveal"><span class="n">5</span><h3>Recommencer plus haut</h3><p>Clouer la rangée suivante et remonter. La paroi se construit par bandes.</p></div>
+    </div>
+
+    <!-- Lattis -->
+    <div class="lattis">
+      <div class="reveal">
+        <h3>Le lattis : tassage et accroche</h3>
+        <p>Des lattes de 3 cm de large et 7 mm d'épaisseur, espacées de 1 à 2 cm, posées horizontalement par paquets de 6. Le lattis n'est pas un coffrage que l'on retire : il reste en place. Il maintient le mélange pendant le séchage, environ trois semaines, puis l'ensemble se solidifie. Une fois sec, il sert d'accroche à l'argile de finition.</p>
+      </div>
+      <div class="reveal" aria-hidden="true">
+        <div class="lath-diagram" title="Lattes horizontales de 3 cm, espacées de 1 à 2 cm, par paquet de 6">
+          <span class="lath"></span><span class="lath"></span><span class="lath"></span>
+          <span class="lath"></span><span class="lath"></span><span class="lath"></span>
+        </div>
+        <p class="bar-caption" style="margin-top:14px;">Un paquet de 6 lattes, environ 24 cm. Lattes de 3 cm de large, 7 mm d'épaisseur, espacées de 1 à 2 cm.</p>
+      </div>
+    </div>
+
+    <!-- Finitions -->
+    <div class="finitions">
+      <div class="fin reveal">
+        <div class="k">Enduit de corps</div>
+        <div class="v">≈ 17 mm</div>
+        <p>Argile mesurée depuis l'ossature, soit environ 10 mm devant le lattis. Il remplit entre les lattes et rattrape les zones plus ou moins lisses du mur.</p>
+      </div>
+      <div class="fin reveal">
+        <div class="k">Enduit de finition</div>
+        <div class="v">≈ 3 mm</div>
+        <p>Argile très fine, avec une coloration naturelle au choix. Elle apporte la couleur et l'aspect propre, et remplace les peintures, pas toujours saines.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ASTUCES -->
+<section id="astuces">
+  <div class="wrap">
+    <span class="eyebrow reveal">Retour de terrain</span>
+    <h2 class="reveal">Nos astuces pour une mise en œuvre plus efficace</h2>
+    <p class="lead reveal">Des détails qui font gagner du temps, appris en posant les 110 m². Rien de théorique, juste ce qui a marché pour nous.</p>
+
+    <div class="tips">
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 20V8l8-4 8 4v12M9 20v-6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>Une ossature décalée du mur</h3><p>Le mur n'est pas droit. On décale légèrement l'ossature pour rattraper les défauts et isoler aussi derrière les tasseaux. On la visse dans le mur avec des chevilles, en ajoutant une petite cale à la jonction mur et ossature.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M14 4l6 6-9 9-6 1 1-6 8-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>Clouer au marteau, sans cloueur</h3><p>Pas de pistolet à clous : on a tout fait au marteau. Derrière les tasseaux, c'était souvent vide. On glissait une cale derrière la latte, on clouait, puis on retirait la cale.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 6l5 5M18 6l-5 5M9 14l3 6 3-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><h3>Tenir les lattes seul</h3><p>Seul, des serre-joints tiennent la latte en place le temps de la fixer. Les mains restent libres pour le marteau.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 8h16M4 12h16M4 16h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+        <div><h3>Espacer les lattes vite fait</h3><p>Espacement de 1 à 2 cm. Astuce : des chutes de gaine électrique ICTA, en 16 ou 20 mm, servent de gabarit d'écartement entre deux lattes.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>L'électricité passe en premier</h3><p>On fait l'électricité avant la terre, en gaine ICTA obligatoire, car il n'y a pas de vide dans la paroi. Ce sont ces chutes de gaine qu'on a récupérées pour caler les lattes.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.6"/><circle cx="9.5" cy="12" r="1.1" fill="currentColor"/><circle cx="14.5" cy="12" r="1.1" fill="currentColor"/></svg></span>
+        <div><h3>Fixer les boîtiers de prises</h3><p>Pour poser un boîtier à la verticale, on ajoute un tasseau horizontal entre deux tasseaux verticaux : il sert de support. À l'horizontale, les tasseaux conviennent directement, ou on cale avec deux petites pièces de bois sur les côtés.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M14 3l7 7-4 4-7-7 4-4zM10 7L3 14v4h4l7-7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>Tasser juste ce qu'il faut</h3><p>Massette de 1,5 kg, sans frapper fort : on enfonce le mélange. Le test : on passe un doigt entre les lattes. S'il s'enfonce d'environ 1 cm sans résistance, ce n'est pas assez tassé.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h16v12H4zM4 7l3-3h10l3 3M9 12h6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>Avancer 3 lattes à la fois</h3><p>On garnissait par tranches de 3 lattes. Sur 6 cm, c'est étroit : c'était la bonne limite pour bien glisser le mélange et le tasser correctement.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3c2 3 3 5 3 7a3 3 0 1 1-6 0c0-2 1-4 3-7zM12 14v7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><h3>Mouiller au pulvérisateur</h3><p>Un pulvérisateur à pompe manuelle suffit pour humidifier le mur avant de garnir, et éviter qu'il ne boive l'eau du mélange.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 12h12M15 9l3 3-3 3M6 6v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><h3>Couper les lattes simplement</h3><p>À la scie japonaise en amont, ou directement sur les tasseaux une fois la latte engagée, avec un multitool. Cet outil fait le travail proprement, on le recommande vraiment.</p></div>
+      </div>
+      <div class="tip reveal">
+        <span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 7h14l-1 13H6L5 7zM9 7V5a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div><h3>Le mélange livré tout prêt</h3><p>On a acheté le mélange terre-chanvre déjà préparé chez Saint-Samson. Pas de dosage à gérer sur place, un vrai gain de temps et de régularité.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIE -->
+<section id="galerie" class="section-soft">
+  <div class="wrap">
+    <span class="eyebrow reveal">Galerie</span>
+    <h2 class="reveal">Le chantier en images</h2>
+    <p class="lead reveal">Photographies du chantier, par Thibault Santonja Photographie. <a href="https://thibaultsan.com" target="_blank" rel="noopener">thibaultsan.com</a></p>
+
+    <div class="gallery">
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/mur-ossature.avif">
+          <source type="image/webp" srcset="assets/img/mur-ossature.webp">
+          <img src="assets/img/mur-ossature.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Ossature en tasseaux verticaux fixée sur le mur ancien, légèrement décalée pour isoler aussi derrière.">
+        </picture>
+        <figcaption>L'ossature bois posée sur le mur ancien, décalée pour isoler derrière.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/controle-niveau.avif">
+          <source type="image/webp" srcset="assets/img/controle-niveau.webp">
+          <img src="assets/img/controle-niveau.webp" width="1200" height="1600" loading="lazy" decoding="async" alt="Contrôle du niveau et de l'aplomb de l'ossature bois avant le garnissage en terre-chanvre.">
+        </picture>
+        <figcaption>Contrôle du niveau de l'ossature avant de garnir.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/outils-fixer-lattes.avif">
+          <source type="image/webp" srcset="assets/img/outils-fixer-lattes.webp">
+          <img src="assets/img/outils-fixer-lattes.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Lattes horizontales en cours de pose sur l'ossature, marteau et multitool à portée de main, terre-chanvre déjà tassé en partie basse.">
+        </picture>
+        <figcaption>Pose des lattes horizontales sur l'ossature, terre-chanvre en partie basse.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/cales-clouer-lattes.avif">
+          <source type="image/webp" srcset="assets/img/cales-clouer-lattes.webp">
+          <img src="assets/img/cales-clouer-lattes.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Cales glissées derrière les tasseaux pour pouvoir clouer les lattes là où le mur est creux.">
+        </picture>
+        <figcaption>Les cales, glissées derrière les tasseaux pour clouer dans le vide.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/fixation-lattes.avif">
+          <source type="image/webp" srcset="assets/img/fixation-lattes.webp">
+          <img src="assets/img/fixation-lattes.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Fixation au marteau d'une latte horizontale du lattis sur l'ossature bois.">
+        </picture>
+        <figcaption>Fixation des lattes au marteau, faute de cloueur.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/terre-chanvre-massette.avif">
+          <source type="image/webp" srcset="assets/img/terre-chanvre-massette.webp">
+          <img src="assets/img/terre-chanvre-massette.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Mélange terre-chanvre prêt à poser et massette de 1,5 kg utilisée pour tasser le mélange entre les lattes.">
+        </picture>
+        <figcaption>Le mélange prêt à poser et la massette de 1,5 kg pour tasser.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/outils-terre-chanvre-electricite.avif">
+          <source type="image/webp" srcset="assets/img/outils-terre-chanvre-electricite.webp">
+          <img src="assets/img/outils-terre-chanvre-electricite.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Chutes de gaine électrique ICTA réutilisées comme gabarit d'espacement des lattes, à côté du terre-chanvre.">
+        </picture>
+        <figcaption>Les chutes de gaine ICTA, gabarit d'espacement des lattes.</figcaption>
+      </figure>
+      <figure class="gshot reveal">
+        <picture>
+          <source type="image/avif" srcset="assets/img/outils-fixation-lattes.avif">
+          <source type="image/webp" srcset="assets/img/outils-fixation-lattes.webp">
+          <img src="assets/img/outils-fixation-lattes.webp" width="1600" height="1200" loading="lazy" decoding="async" alt="Poste de travail sur l'échafaudage : seau de mélange terre-chanvre, multitool, pulvérisateur à main et serre-joints, devant le mur en lattis.">
+        </picture>
+        <figcaption>Le poste de travail sur l'échafaudage, devant le mur en lattis.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- MERCI -->
+<section id="merci">
+  <div class="wrap">
+    <span class="eyebrow reveal">Remerciements</span>
+    <h2 class="reveal">Celles et ceux qui ont rendu ce chantier possible</h2>
+
+    <div class="thanks-grid">
+      <div class="thank reveal">
+        <div class="k">Conseil</div>
+        <h3>CAUE de la Somme</h3>
+        <p>Pour les conseils en architecture, urbanisme et environnement qui ont orienté le projet. <a href="https://www.caue80.fr/" target="_blank" rel="noopener">caue80.fr</a></p>
+      </div>
+      <div class="thank reveal">
+        <div class="k">Matériaux locaux</div>
+        <h3>Les carrelages de Saint Samson la Poterie (Oise)</h3>
+        <p>Terre-chanvre livré prêt à l'emploi, lattes du lattis, argile d'enduit et de finition, une solution 100 % écologique et non toxique, sans peinture. Également des carrelages et briques de terre crue pour le poêle de masse, tous produits localement. <a href="https://carrelages-de-st-samson.com/" target="_blank" rel="noopener">carrelages-de-st-samson.com</a></p>
+      </div>
+      <div class="thank reveal">
+        <div class="k">Inspiration</div>
+        <h3>Magazine La Maison écologique</h3>
+        <p>Pour s'informer et découvrir des techniques, une aide précieuse en amont du chantier. <a href="https://lamaisonecologique.com/" target="_blank" rel="noopener">lamaisonecologique.com</a></p>
+      </div>
+      <div class="thank reveal">
+        <div class="k">Photographies</div>
+        <h3>Thibault Santonja Photographie</h3>
+        <p>Toutes les photographies du chantier. <a href="https://thibaultsan.com" target="_blank" rel="noopener">thibaultsan.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="sources">
+      <div class="k">Sources et pour aller plus loin</div>
+      <ul>
+        <li>Ecopertica, <a href="https://www.ecopertica.com/aller-plus-loin/eco-construction/difference-entre-chaux-chanvre-terre-chanvre/" target="_blank" rel="noopener">différence chaux-chanvre et terre-chanvre</a></li>
+        <li>Alterrebati, <a href="https://www.alterrebati.com/fiche-technique-terre-chanvre" target="_blank" rel="noopener">fiche technique terre-chanvre</a></li>
+        <li>Conseils Thermiques, <a href="https://conseils-thermiques.org/contenu/comparatif_isolants.php" target="_blank" rel="noopener">comparatif des isolants</a></li>
+      </ul>
+    </div>
+    <span>Banchage terre-chanvre, retour d'expérience.<br>Photographies : <a href="https://thibaultsan.com" target="_blank" rel="noopener">Thibault Santonja Photographie</a></span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie" hidden>
+  <button class="lb-btn lb-close" id="lbClose" type="button" aria-label="Fermer la photo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" aria-label="Photo précédente">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <figure class="lb-figure">
+    <div class="lb-media" id="lbMedia"></div>
+    <figcaption class="lb-cap" id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" id="lbNext" type="button" aria-label="Photo suivante">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</div>
+
+<!-- MODALE COMPARATIF -->
+<div class="modal-backdrop" id="compareModal" role="presentation">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="cmpTitle" aria-describedby="cmpSub">
+    <div class="modal__head">
+      <div>
+        <h2 id="cmpTitle">Le chanvre face aux autres isolants</h2>
+        <p id="cmpSub">Le terre-chanvre isole moins par centimètre, mais sa masse apporte de l'inertie et du déphasage, et son impact carbone reste très bas.</p>
+      </div>
+      <button class="modal__close" id="closeCompare" type="button" aria-label="Fermer la comparaison">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal__body">
+      <div class="table-scroll">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th scope="col">Isolant</th>
+              <th scope="col">λ (W/m·K)</th>
+              <th scope="col">Origine</th>
+              <th scope="col">Déphasage, confort d'été</th>
+              <th scope="col">Régulation de l'humidité</th>
+              <th scope="col">Énergie grise, carbone</th>
+              <th scope="col">Santé</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="is-hero">
+              <th scope="row">Terre-chanvre banché</th>
+              <td class="lam">≈ 0,07 à 0,11</td>
+              <td>Terre et chanvre, local</td>
+              <td><span class="pill good">Excellent</span> masse, inertie</td>
+              <td><span class="pill good">Excellente</span> perspirant</td>
+              <td><span class="pill good">Très basse</span> stocke du carbone</td>
+              <td>Sain, non toxique</td>
+            </tr>
+            <tr>
+              <th scope="row">Laine ou fibre de chanvre</th>
+              <td class="lam">≈ 0,039 à 0,045</td>
+              <td>Chanvre</td>
+              <td><span class="pill good">Bon</span></td>
+              <td><span class="pill good">Bonne</span></td>
+              <td><span class="pill good">Basse</span> biosourcé</td>
+              <td>Sain</td>
+            </tr>
+            <tr>
+              <th scope="row">Fibre de bois</th>
+              <td class="lam">≈ 0,038 à 0,046</td>
+              <td>Bois</td>
+              <td><span class="pill good">Très bon</span> dense</td>
+              <td><span class="pill good">Bonne</span></td>
+              <td><span class="pill good">Basse</span> biosourcé</td>
+              <td>Sain</td>
+            </tr>
+            <tr>
+              <th scope="row">Liège expansé</th>
+              <td class="lam">≈ 0,037 à 0,040</td>
+              <td>Chêne-liège</td>
+              <td><span class="pill good">Bon</span></td>
+              <td><span class="pill good">Bonne</span></td>
+              <td><span class="pill good">Basse</span> biosourcé</td>
+              <td>Sain</td>
+            </tr>
+            <tr>
+              <th scope="row">Laine de mouton</th>
+              <td class="lam">≈ 0,035 à 0,042</td>
+              <td>Laine animale</td>
+              <td><span class="pill mid">Moyen</span></td>
+              <td><span class="pill good">Bonne</span></td>
+              <td><span class="pill good">Basse</span></td>
+              <td>Sain</td>
+            </tr>
+            <tr>
+              <th scope="row">Laine de verre</th>
+              <td class="lam">≈ 0,030 à 0,040</td>
+              <td>Minéral, sable fondu</td>
+              <td><span class="pill low">Faible</span></td>
+              <td><span class="pill mid">Limitée</span></td>
+              <td><span class="pill low">Élevée</span> fusion ≈ 1400 °C</td>
+              <td>Fibres irritantes</td>
+            </tr>
+            <tr class="is-petro">
+              <th scope="row">Polystyrène (PSE)</th>
+              <td class="lam">≈ 0,030 à 0,038</td>
+              <td>Pétrochimie</td>
+              <td><span class="pill low">Très faible</span></td>
+              <td><span class="pill low">Nulle</span> étanche</td>
+              <td><span class="pill low">Élevée</span> pétrosourcé</td>
+              <td>Issu du pétrole</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="modal__note">λ (lambda) : plus la valeur est basse, plus le matériau isole à épaisseur égale. Le polystyrène et la laine de verre isolent davantage par centimètre, mais ils déphasent mal la chaleur d'été et n'aident pas à réguler l'humidité. Les biosourcés stockent du carbone et demandent peu d'énergie de fabrication. Valeurs en ordre de grandeur, sources : <a href="https://conseils-thermiques.org/contenu/comparatif_isolants.php" target="_blank" rel="noopener">Conseils Thermiques</a> et <a href="https://www.ecopertica.com/aller-plus-loin/eco-construction/difference-entre-chaux-chanvre-terre-chanvre/" target="_blank" rel="noopener">Ecopertica</a>.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- Reading progress ----
+  var progress = document.getElementById('progress');
+  function onScroll() {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var pct = max > 0 ? (h.scrollTop / max) * 100 : 0;
+    progress.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // ---- Mobile nav ----
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function () {
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // ---- Counter animation ----
+  function animateCount(el) {
+    var to = parseFloat(el.getAttribute('data-to'));
+    var prefix = el.getAttribute('data-prefix') || '';
+    if (reduce) { el.textContent = prefix + to; return; }
+    var dur = 1300, start = null;
+    function frame(t) {
+      if (!start) start = t;
+      var p = Math.min((t - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = prefix + Math.round(to * eased);
+      if (p < 1) requestAnimationFrame(frame);
+      else el.textContent = prefix + to;
+    }
+    requestAnimationFrame(frame);
+  }
+
+  // ---- Bars ----
+  function fillBars() {
+    document.querySelectorAll('.bar-fill').forEach(function (b) {
+      b.style.width = b.getAttribute('data-w') + '%';
+    });
+  }
+
+  // ---- Reveal ----
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries, obs) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var t = en.target;
+        t.classList.add('in');
+        t.querySelectorAll('.count').forEach(animateCount);
+        if (t.id === 'co2bars') fillBars();
+        obs.unobserve(t);
+      });
+    }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+    var bars = document.getElementById('co2bars');
+    if (bars) io.observe(bars);
+  } else {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
+    document.querySelectorAll('.count').forEach(animateCount);
+    fillBars();
+  }
+
+  // ---- Schéma : bascule coupe / face ----
+  var viewCoupe = document.getElementById('viewCoupe');
+  var viewFace = document.getElementById('viewFace');
+  var viewBtn = document.getElementById('viewToggle');
+  var figCap = document.getElementById('figCap');
+  viewBtn.addEventListener('click', function () {
+    var faceVisible = !viewFace.hasAttribute('hidden');
+    if (faceVisible) {
+      viewFace.setAttribute('hidden', '');
+      viewCoupe.removeAttribute('hidden');
+      figCap.textContent = "Coupe du mur, de l'extérieur vers la pièce";
+      viewBtn.lastChild.textContent = ' Voir de face';
+      viewBtn.setAttribute('aria-pressed', 'false');
+    } else {
+      viewCoupe.setAttribute('hidden', '');
+      viewFace.removeAttribute('hidden');
+      figCap.textContent = 'Vue de face, ossature et lattis';
+      viewBtn.lastChild.textContent = ' Voir en coupe';
+      viewBtn.setAttribute('aria-pressed', 'true');
+    }
+  });
+
+  // ---- Modale comparatif ----
+  var modal = document.getElementById('compareModal');
+  var openBtn = document.getElementById('openCompare');
+  var closeBtn = document.getElementById('closeCompare');
+  var lastFocused = null;
+
+  function focusables() {
+    return modal.querySelectorAll('a[href], button, [tabindex]:not([tabindex="-1"])');
+  }
+  function openModal() {
+    lastFocused = document.activeElement;
+    modal.classList.add('open');
+    document.body.classList.add('no-scroll');
+    closeBtn.focus();
+    document.addEventListener('keydown', onKey);
+  }
+  function closeModal() {
+    modal.classList.remove('open');
+    document.body.classList.remove('no-scroll');
+    document.removeEventListener('keydown', onKey);
+    if (lastFocused) lastFocused.focus();
+  }
+  function onKey(e) {
+    if (e.key === 'Escape') { closeModal(); return; }
+    if (e.key === 'Tab') {
+      var f = focusables();
+      if (!f.length) return;
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+  openBtn.addEventListener('click', openModal);
+  closeBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+
+  // ---- Lightbox galerie ----
+  var lb = document.getElementById('lightbox');
+  var lbMedia = document.getElementById('lbMedia');
+  var lbCap = document.getElementById('lbCap');
+  var lbClose = document.getElementById('lbClose');
+  var lbPrev = document.getElementById('lbPrev');
+  var lbNext = document.getElementById('lbNext');
+  var figures = Array.prototype.slice.call(document.querySelectorAll('.hero-figure, .gshot'));
+  var lbIndex = 0, lbLast = null;
+
+  figures.forEach(function (fig, i) {
+    var cap = fig.querySelector('figcaption');
+    fig.setAttribute('role', 'button');
+    fig.setAttribute('tabindex', '0');
+    fig.setAttribute('aria-label', 'Agrandir la photo : ' + (cap ? cap.textContent.trim() : 'photo du chantier'));
+    fig.addEventListener('click', function () { openLb(i); });
+    fig.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(i); }
+    });
+  });
+
+  function renderLb() {
+    var fig = figures[lbIndex];
+    var pic = fig.querySelector('picture');
+    var cap = fig.querySelector('figcaption');
+    lbMedia.innerHTML = '';
+    if (pic) {
+      var clone = pic.cloneNode(true);
+      var img = clone.querySelector('img');
+      if (img) { img.removeAttribute('loading'); img.removeAttribute('width'); img.removeAttribute('height'); img.setAttribute('decoding', 'async'); }
+      lbMedia.appendChild(clone);
+    }
+    lbCap.textContent = cap ? cap.textContent.trim() : '';
+  }
+  function openLb(i) {
+    lbIndex = i;
+    lbLast = document.activeElement;
+    renderLb();
+    lb.removeAttribute('hidden');
+    document.body.classList.add('no-scroll');
+    lbClose.focus();
+    document.addEventListener('keydown', lbKey);
+  }
+  function closeLb() {
+    lb.setAttribute('hidden', '');
+    document.body.classList.remove('no-scroll');
+    document.removeEventListener('keydown', lbKey);
+    lbMedia.innerHTML = '';
+    if (lbLast) lbLast.focus();
+  }
+  function stepLb(d) {
+    lbIndex = (lbIndex + d + figures.length) % figures.length;
+    renderLb();
+  }
+  function lbKey(e) {
+    if (e.key === 'Escape') closeLb();
+    else if (e.key === 'ArrowRight') stepLb(1);
+    else if (e.key === 'ArrowLeft') stepLb(-1);
+    else if (e.key === 'Tab') {
+      var f = [lbClose, lbPrev, lbNext];
+      var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+  lbClose.addEventListener('click', closeLb);
+  lbPrev.addEventListener('click', function () { stepLb(-1); });
+  lbNext.addEventListener('click', function () { stepLb(1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) closeLb(); });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Banchage terre-chanvre : isolation écologique, retour d'expérience",
+      "description": "Retour d'expérience sur le banchage terre-chanvre, une isolation écologique de 110 m2 de murs anciens sur 6 cm : technique pas à pas, schéma du mur, terre contre chaux et comparatif des isolants.",
+      "image": "https://thibault-santonja.github.io/terre-chanvre/assets/img/mur-fini.webp",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-06-21",
+      "dateModified": "2026-06-21",
+      "author": { "@type": "Person", "name": "Thibault Santonja", "url": "https://thibaultsan.com" },
+      "publisher": { "@type": "Person", "name": "Thibault Santonja", "url": "https://thibaultsan.com" },
+      "mainEntityOfPage": "https://thibault-santonja.github.io/terre-chanvre/",
+      "keywords": "terre-chanvre, banchage terre-chanvre, isolation écologique, isolation, isolant biosourcé, enduit argile, bâti ancien",
+      "about": [
+        { "@type": "Thing", "name": "Terre-chanvre" },
+        { "@type": "Thing", "name": "Isolation écologique" },
+        { "@type": "Thing", "name": "Banchage" }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "Réaliser un banchage terre-chanvre",
+      "description": "Poser une isolation écologique en terre-chanvre sur un mur ancien, par tranches, derrière un lattis bois qui reste en place.",
+      "inLanguage": "fr-FR",
+      "totalTime": "P10D",
+      "tool": [
+        { "@type": "HowToTool", "name": "Marteau" },
+        { "@type": "HowToTool", "name": "Massette de 1,5 kg" },
+        { "@type": "HowToTool", "name": "Multitool oscillant" },
+        { "@type": "HowToTool", "name": "Scie japonaise" },
+        { "@type": "HowToTool", "name": "Pulvérisateur à pompe manuelle" },
+        { "@type": "HowToTool", "name": "Serre-joints" }
+      ],
+      "supply": [
+        { "@type": "HowToSupply", "name": "Mélange terre-chanvre" },
+        { "@type": "HowToSupply", "name": "Lattes de bois (3 cm de large, 7 mm d'épaisseur)" },
+        { "@type": "HowToSupply", "name": "Tasseaux d'ossature" },
+        { "@type": "HowToSupply", "name": "Chevilles et vis" },
+        { "@type": "HowToSupply", "name": "Argile pour l'enduit de corps et la finition" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "name": "Préparer le mur", "text": "Nettoyer une première fois le mur, monter l'ossature bois, puis laver le mur pour enlever les poussières et assurer l'accroche." },
+        { "@type": "HowToStep", "name": "Clouer les lattes", "text": "Clouer une rangée de lattes horizontales sur l'ossature, en bas de la zone à garnir." },
+        { "@type": "HowToStep", "name": "Mouiller le mur", "text": "Humidifier le support au pulvérisateur juste avant le garnissage." },
+        { "@type": "HowToStep", "name": "Garnir", "text": "Déposer le mélange terre-chanvre derrière le lattis, contre le mur, par tranches de trois lattes." },
+        { "@type": "HowToStep", "name": "Tasser", "text": "Compacter à la massette de 1,5 kg, sans frapper fort, jusqu'à ce que le mélange résiste sous le doigt." },
+        { "@type": "HowToStep", "name": "Remonter", "text": "Clouer la rangée suivante et recommencer jusqu'en haut." },
+        { "@type": "HowToStep", "name": "Sécher puis enduire", "text": "Laisser sécher environ une semaine par 2 cm, soit trois semaines pour 6 cm, puis appliquer l'enduit d'argile de corps et la finition colorée." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce que le banchage terre-chanvre ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "C'est une isolation écologique faite d'un mélange de terre crue, qui sert de liant, et de chanvre, qui apporte légèreté et pouvoir isolant. On le tasse contre le mur, derrière un lattis bois qui reste en place. Une fois sec, on obtient une paroi saine, respirante et régulatrice d'humidité." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle différence entre terre-chanvre et chaux-chanvre ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Le liant terre crue n'est pas cuit : son empreinte carbone est environ dix fois plus basse que celle de la chaux, qui passe par un four à près de 900 degrés. La terre sèche plus vite et coûte moins cher, mais elle est plus sensible à l'eau et se réserve aux parois protégées du ruissellement." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle épaisseur de terre-chanvre pour isoler ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sur ce chantier, 6 cm. À cette épaisseur, on parle d'un doublage isolant et d'une correction thermique en rénovation de bâti ancien, pas d'une isolation aux normes du neuf. Le séchage est d'environ une semaine par 2 cm." }
+        },
+        {
+          "@type": "Question",
+          "name": "Le terre-chanvre est-il un bon isolant ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sa conductivité thermique est plus élevée que celle des isolants classiques, de l'ordre de 0,07 à 0,11 W/m.K, donc il isole moins par centimètre. En revanche, sa masse apporte de l'inertie et du déphasage en été, il régule l'humidité et son impact carbone reste très bas." }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>
