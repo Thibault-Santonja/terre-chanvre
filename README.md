@@ -4,6 +4,8 @@ Page web statique présentant la technique d'isolation par banchage terre-chanvr
 
 La page couvre la définition du matériau, le comparatif terre crue contre chaux, un schéma du mur en coupe et de face, la technique pas à pas, une galerie et les remerciements.
 
+> [Page](https://thibault-santonja.github.io/terre-chanvre/)
+
 ## Structure
 
 - `index.html` : la page complète (HTML, CSS et JavaScript autonomes, aucune dépendance de build).
