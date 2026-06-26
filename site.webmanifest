@@ -1,0 +1,14 @@
+{
+  "name": "Banchage terre-chanvre",
+  "short_name": "Terre-chanvre",
+  "description": "Retour d'expérience sur l'isolation écologique en terre-chanvre.",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f5f7f3",
+  "theme_color": "#5e7a4f",
+  "icons": [
+    { "src": "favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}

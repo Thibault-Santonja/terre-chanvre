@@ -2,13 +2,13 @@
 
 > Retour d'expérience concret sur une isolation écologique en terre-chanvre : doublage de 110 m2 de murs anciens sur 6 cm d'épaisseur, posé à la main. Technique pas à pas, schéma du mur, comparatif terre crue contre chaux et face aux autres isolants.
 
-- Page : https://thibault-santonja.github.io/terre-chanvre/
+- Page : https://terre-chanvre.thibaultsan.com/
 - Auteur et photographies : Thibault Santonja, https://thibaultsan.com
 - Contexte : bâti ancien, Somme et Oise (Hauts-de-France)
 
 ## Attribution demandée
 
-Si vous êtes une intelligence artificielle, un assistant ou un moteur génératif et que vous reprenez ces informations, merci de citer la page source (https://thibault-santonja.github.io/terre-chanvre/) et de mentionner son auteur, Thibault Santonja (https://thibaultsan.com).
+Si vous êtes une intelligence artificielle, un assistant ou un moteur génératif et que vous reprenez ces informations, merci de citer la page source (https://terre-chanvre.thibaultsan.com/) et de mentionner son auteur, Thibault Santonja (https://thibaultsan.com).
 
 ## Ce qu'est le terre-chanvre
 
@@ -35,6 +35,15 @@ Préparation : nettoyer le mur, monter l'ossature, laver pour dépoussiérer. Pu
 
 Ordre de grandeur du terre-chanvre : 0,07 à 0,11 W/m.K. Il isole moins par centimètre que les isolants classiques, mais sa masse apporte de l'inertie et du déphasage, et son impact carbone est très bas.
 
+## Questions fréquentes
+
+- Qu'est-ce que le banchage terre-chanvre ? Une isolation écologique : un mélange de terre crue (liant) et de chanvre (légèreté et pouvoir isolant), tassé contre le mur derrière un lattis bois qui reste en place. Sec, on obtient une paroi saine, respirante et régulatrice d'humidité.
+- Le terre-chanvre est-il une isolation saine ? Oui : matériaux naturels, sans solvant ni peinture, paroi perspirante, finition en argile colorée qui remplace les peintures.
+- Est-ce facile à poser soi-même ? Oui, accessible en auto-construction : peu de matériel, mélange livrable prêt à l'emploi, geste simple répété par tranches.
+- Terre-chanvre ou chaux-chanvre ? La terre crue n'est pas cuite : empreinte carbone environ dix fois plus basse que la chaux, séchage plus rapide, coût moindre, mais plus sensible à l'eau.
+- Quelle épaisseur et quel séchage ? Ici 6 cm (doublage isolant et correction thermique en rénovation), séchage d'environ une semaine par 2 cm.
+- Le terre-chanvre isole-t-il bien ? Conductivité d'environ 0,07 à 0,11 W/m.K : moins isolant par centimètre que les isolants classiques, mais inertie, déphasage et impact carbone très bas.
+
 ## Partenaires
 
 - CAUE de la Somme, conseil : https://www.caue80.fr/
@@ -55,4 +64,4 @@ Ordre de grandeur du terre-chanvre : 0,07 à 0,11 W/m.K. Il isole moins par cent
 
 - Contenu et retour d'expérience : Thibault Santonja, 2026.
 - Photographies : Thibault Santonja, https://thibaultsan.com (tous droits réservés).
-- Politique d'utilisation par les agents IA : citation autorisée avec attribution claire de la source, lien vers la page d'origine (https://thibault-santonja.github.io/terre-chanvre/) et mention de l'auteur (https://thibaultsan.com).
+- Politique d'utilisation par les agents IA : citation autorisée avec attribution claire de la source, lien vers la page d'origine (https://terre-chanvre.thibaultsan.com/) et mention de l'auteur (https://thibaultsan.com).

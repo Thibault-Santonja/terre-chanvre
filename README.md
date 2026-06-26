@@ -4,7 +4,7 @@ Page web statique présentant la technique d'isolation par banchage terre-chanvr
 
 La page couvre la définition du matériau, le comparatif terre crue contre chaux, un schéma du mur en coupe et de face, la technique pas à pas, une galerie et les remerciements.
 
-> [Page](https://thibault-santonja.github.io/terre-chanvre/)
+> [Page](https://terre-chanvre.thibaultsan.com/)
 
 ## Structure
 
@@ -19,7 +19,7 @@ La page couvre la définition du matériau, le comparatif terre crue contre chau
 
 La page inclut des balises Open Graph et Twitter, et des données structurées JSON-LD (Article, HowTo, FAQPage) pour les moteurs de recherche et les moteurs génératifs.
 
-Important : l'URL de base est `https://thibault-santonja.github.io/terre-chanvre/`. Si le site est déployé sur un autre domaine (par exemple un domaine personnalisé), remplacer cette URL partout où elle apparaît : `index.html` (canonical, Open Graph, JSON-LD), `robots.txt` et `sitemap.xml`.
+Important : l'URL de base est `https://terre-chanvre.thibaultsan.com/`. Si le site est déployé sur un autre domaine (par exemple un domaine personnalisé), remplacer cette URL partout où elle apparaît : `index.html` (canonical, Open Graph, JSON-LD), `robots.txt` et `sitemap.xml`.
 
 ## Aperçu local
 
